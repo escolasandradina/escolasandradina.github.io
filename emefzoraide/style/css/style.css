@@ -22,6 +22,25 @@ a, a:link, a:visited, a:hover, a:active{
     font-size: clamp(1.5em, 1.5em + 1vw, 2.5em);
 }
 
+iframe{
+    width: 40vw;
+    height: 40vw;
+}
+
+hr {
+    color: #ffffff00; 
+    border-color: #ffffff00; 
+    height: 120px;
+}
+
+footer{
+    text-align: end;
+}
+
+footer h1, footer h2, footer h3 {
+    text-align: center;
+}
+
 .container{
     padding: 15vw;
 }
@@ -75,8 +94,13 @@ a, a:link, a:visited, a:hover, a:active{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.card h2{
+.card h2, .card p {
     color: #AD00A1;
+    text-align: center;
+}
+
+.card-image {
+    width: 90%;
 }
 
 @media screen and (max-width: 768px) {
@@ -86,6 +110,18 @@ a, a:link, a:visited, a:hover, a:active{
     
     * h1, * h2, * h3, * h4, * h5 {
         font-size: clamp(1em, 1em + 1vw, 1.5em);
+    }
+    iframe{
+        width: 80vw;
+        height: 80vw;
+    }
+    footer{
+        text-align: start;
+        font-size: calc(1vw + 1.5em);
+    }
+    
+    footer h1, footer h2, footer h3 {
+        text-align: center;
     }
     .image{
         width: 80%;
@@ -99,4 +135,8 @@ a, a:link, a:visited, a:hover, a:active{
         
         
     }
+    .flexresponsivo {
+        flex-direction: column;
+    }
+
   }
