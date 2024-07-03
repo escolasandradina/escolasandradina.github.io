@@ -9,12 +9,25 @@ a, a:link, a:visited, a:hover, a:active{
     text-decoration: none;
 }
 
+* img{
+    object-fit: cover;
+    object-position: center;
+}
+
 .container{
-    padding: 8%;
+    padding: 15vw;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 10vw 0;
 }
 
 .flexbox {
     display: flex;
+}
+
+.flex-center {
     justify-content: center;
 }
 
@@ -24,4 +37,35 @@ a, a:link, a:visited, a:hover, a:active{
 .double-image{
     width: 35%;
     margin: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.image{
+    width: 50%;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.gradient-blue{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(0,75,173,1) 100%);
+}
+
+.card {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 20px;
+    padding: 1px;
+    background-color: #fff;
+    margin: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h2{
+    color: #AD00A1;
 }
