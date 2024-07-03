@@ -72,8 +72,31 @@ a, a:link, a:visited, a:hover, a:active{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .card h2{
     color: #AD00A1;
 }
+
+@media screen and (max-width: 768px) {
+    * p {
+        font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    }
+    
+    * h1, * h2, * h3, * h4, * h5 {
+        font-size: clamp(1em, 1em + 1vw, 1.5em);
+    }
+    .image{
+        width: 80%;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .card {
+        width: 20vw;
+        height: 35vw;
+        border-radius: 5px;
+        
+        
+    }
+  }
