@@ -80,7 +80,7 @@ footer h1, footer h2, footer h3 {
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(0,75,173,1) 100%);
 }
 
-.card {
+/* .card {
     width: 20vw;
     height: 20vw;
     border-radius: 20px;
@@ -101,7 +101,7 @@ footer h1, footer h2, footer h3 {
 
 .card-image {
     width: 90%;
-}
+} */
 
 @media screen and (max-width: 768px) {
     * p {
