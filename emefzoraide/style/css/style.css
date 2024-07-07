@@ -23,8 +23,8 @@ a, a:link, a:visited, a:hover, a:active{
 }
 
 iframe{
-    width: 40vw;
-    height: 40vw;
+    width: 20vw;
+    height: 20vw;
 }
 
 hr {
@@ -45,10 +45,7 @@ footer h1, footer h2, footer h3 {
     padding: 15vw;
 }
 
-.container-fluid {
-    width: 100%;
-    padding: 10vw 0;
-}
+
 
 .flexbox {
     display: flex;
@@ -80,28 +77,6 @@ footer h1, footer h2, footer h3 {
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(0,75,173,1) 100%);
 }
 
-/* .card {
-    width: 20vw;
-    height: 20vw;
-    border-radius: 20px;
-    padding: 1px;
-    background-color: #fff;
-    margin: 3vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-.card h2, .card p {
-    color: #AD00A1;
-    text-align: center;
-}
-
-.card-image {
-    width: 90%;
-} */
 
 @media screen and (max-width: 768px) {
     * p {

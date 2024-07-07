@@ -3,7 +3,7 @@ window.onscroll = function() {myFunction()};
 
 // Get the navbar
 var navbar = document.getElementById("navbar");
-var navbarLogo = document.getElementById("nav-logo")
+// var navbarLogo = document.getElementById("nav-logo")
 
 // Get the offset position of the navbar
 var sticky = navbar.offsetTop;
@@ -12,9 +12,12 @@ var sticky = navbar.offsetTop;
 function myFunction() {
   if (window.scrollY >= sticky) {
     navbar.classList.add("sticky");
-    navbarLogo.classList.add("stycky-navlogo");
+    navbar.classList.add("bg-primary");
+    navbar.classList.remove("navbar-dark")
+    // navbarLogo.classList.add("stycky-navlogo");
   } else {
     navbar.classList.remove("sticky");
-    navbarLogo.classList.remove("stycky-navlogo")
+    navbar.classList.remove("bg-primary");
+    // navbarLogo.classList.remove("stycky-navlogo")
   }
 }
