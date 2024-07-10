@@ -16,8 +16,8 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto mb-2 mb-xl-0">
                     <li><a class="nav-link" onclick="scrollToTop()" aria-current="page" href="#">Início</a></li>
-                    <li><a class="nav-link" href="#">Link</a></li>
-                    <li><a class="nav-link" href="#">Link</a></li>
+                    <li><a class="nav-link" href="#sobre">Sobre nós</a></li>
+                    <li><a class="nav-link" href="#contato">Contato</a></li>
                 </ul>
                 
                 
@@ -33,25 +33,34 @@
         <section id="banner">
 
         </section>
-        <section class="flexbox flex-center container">
-            <div class="flexbox" style="width: 100vw;">
-                <img class="double-image" style="margin-bottom: 6vw;" src="./style/img/img1.jpg" alt="">
-                <img class="double-image" style="margin-top: 6vw;" src="./style/img/img2.jpg" alt="">
-            </div>
-            <div style="padding: 1vw; width: 100%" >
-                <h2>Nossa escola</h2>
-                <p>Na nossa escola, acreditamos no potencial de cada criança e trabalhamos para proporcionar um ambiente seguro, inclusivo e estimulante. Com professores e funcinários dedicados, garantimos uma educação de qualidade para todos.</p>
+
+        <section id="sobre" class="container">
+            <h2 style="text-align: center; font-weight: bold; margin-bottom: 20px;">Nossa escola</h2>
+            <div class="row flexresponsivo">
+                <div class="col">
+                    <img class="rounded img-fluid" style="margin-bottom: 6vw;" src="./style/img/img.jpg" alt="">
+                </div>
+                <div class="col">
+                    <div style="padding: 1vw; width: 100%" >
+                        
+                        <p>Instalada desde 02/03/1964 no prédio do Gesc “Dr Álvaro Guião” como uma extensão do Instituto de Educação Estadual de Andradina, atual Escola JBC, a Escola XI de Julho foi criada em 11/10/68, atendendo alunos da 5ª a 8ª série do ensino fundamental e do ensino médio. Em 1973, mudou-se para o Bairro Vila Mineira, com um prédio moderno e 22 salas de aula funcionando em três períodos.</p>
+                        <p>Em 1976, incorporou o Colégio “XI de Julho” à EEPG de Vila Mineira, passando a se chamar EEPG “XI de Julho” e atendendo alunos do bairro da 1ª à 8ª série do ensino fundamental.</p>
+                        <p>Em 02 de fevereiro de 1981, passou a se chamar EEPSG “XI de Julho”, oferecendo ensino fundamental e médio.</p>
+                        <p>Em 09 de julho de 2000, foi municipalizada e renomeada EMEF “Prof.ª Zoraide de Carvalho Oliveira”. Atualmente, atende 503 alunos do 1º ao 5º ano do ensino fundamental de 9 anos e 103 crianças na educação infantil. O Atendimento Educacional Especializado (AEE) inclui 17 alunos na escola e 29 atendidos pela psicopedagoga.</p>
+                    </div>
+                </div>
             </div>
         </section>
+
         <section class="container-fluid gradient-blue">
             <hr>
-            <div style="padding: 1vw; width: 100%; text-align: center; color: #fff;text-shadow: 1px 1px #AD00A160;" >
+            <div class="container" style="padding: 1vw; text-align: center; color: #fff; text-shadow: 2px 3px 2px #AD00A160;" >
                 <h2>Nossos projetos</h2>
                 <p>Durante todo o ano letivo proporcionamos diversos projetos para auxiliar no aprendizado e no desenvolvimento cidadão de cada aluno, diversos projetos como palestras sobre diversidade, aulas de educação financeira, passeios entre outros trazem uma gama de conhecimento a mais em nosso currículo escolar</p>
             </div>
             <div class="container text-center">
-                <section class="row">
-                    <div class="col">
+                <section class="row row-cols-3">
+                    <div class="col-md-4">
                         <a href="https://www.facebook.com/photo/?fbid=466437529356649&set=pcb.466438576023211"  target="_blank">
                             <div class="card">
                                 <img class="img-fluid card-img-top rounded" src="./style/img/pinese-palestra-vacinacao.jpg" alt="">
@@ -60,10 +69,11 @@
                                 </div>
                                 
                             </div>
+                            <hr>
                         </a>
                     </div>
                     
-                    <div class="col">
+                    <div class="col-md-4">
                         <a href="https://www.facebook.com/photo?fbid=438929452107457&set=pcb.438929878774081"  target="_blank">
                             <div class="card">
                                 <img class="img-fluid card-img-top rounded" src="./style/img/zoraide-descobrimento-brasil.jpg" alt="">
@@ -72,10 +82,11 @@
                                 </div>
                                 
                             </div>
+                            <hr>
                         </a>
                     </div>
                     
-                    <div class="col">
+                    <div class="col-md-4">
                         <a href="https://www.facebook.com/photo?fbid=438891208777948&set=pcb.438892342111168"  target="_blank">
                             <div class="card">
                                 <img class="img-fluid card-img-top rounded" src="./style/img/lustosa-varal-historia.jpg" alt="">
@@ -84,6 +95,7 @@
                                 </div>
                                 
                             </div>
+                            <hr>
                         </a>
                     </div>
                 </section>
@@ -92,24 +104,18 @@
             </div>
             
         </section>
-        <footer class="container">
-            <h2 style="text-align: center;">Contato</h2>
-            <hr>
-            <div class="flexbox flexresponsivo">
+        <footer id="contato" class="container">
 
-                <div>
-
-                    <p>Endereço: R. Reg. Feijó, 2160 - Centro, Andradina - SP, 16901-370</p>
+            <div class="row flexresponsivo">
+                <div class="col">
+                    <p>Endereço: R. Reg. Feijó, 2160 <br>Centro, Andradina - SP <br>CEP: 16901-370</p>
                     <p>Telefone: (18) 3722-3825</p>
-                    
-    
                 </div>
-                <div>
+                <div class="col">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14909.814523989615!2d-51.3678505!3d-20.8940614!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9490b55ec901afb9%3A0x133210dbbea68900!2sEMEF.%20Profa.%20Zoraide%20de%20Carvalho%20Oliveira!5e0!3m2!1spt-BR!2sbr!4v1720047387016!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
             </div>
-            
         </footer>
         <section style="position: relative; bottom: 0; font-size: 10px; padding: 0; margin: 0;">
             <div><a href="mailto:albertoalfredo.profissional@gmail.com">Criado por Alberto R B F Alfredo</div></a>
